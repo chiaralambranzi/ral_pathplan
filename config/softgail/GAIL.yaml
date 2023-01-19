@@ -1,0 +1,28 @@
+behaviors:
+  Planner:
+    trainer_type: ppo
+    max_steps: 5000000
+    time_horizon: 64
+    summary_freq: 50000
+    hyperparameters:
+      batch_size: 1024
+      buffer_size: 10240
+      learning_rate: 5.0e-4
+      beta: 5.0e-4
+      epsilon: 0.25
+      lambd: 0.95
+      num_epoch: 3
+    network_settings:
+      hidden_units: 64
+      normalize: false
+      num_layers: 4
+    reward_signals:
+      gail:
+        strength: 1.0
+        gamma: 0.99
+        encoding_size: 64
+        demo_path: Assets\Demonstrations\softgail
+        network_settings:
+          hidden_units: 64
+          normalize: false
+          num_layers: 4

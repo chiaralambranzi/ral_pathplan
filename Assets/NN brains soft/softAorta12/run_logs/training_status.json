@@ -1,0 +1,68 @@
+{
+    "pos": {
+        "lesson_num": 0
+    },
+    "Planner": {
+        "checkpoints": [
+            {
+                "steps": 6499971,
+                "file_path": "results\\softAorta12\\Planner\\Planner-6499971.onnx",
+                "reward": -1.1109333128357928,
+                "creation_time": 1663542598.9435792,
+                "auxillary_file_paths": [
+                    "results\\softAorta12\\Planner\\Planner-6499971.pt"
+                ]
+            },
+            {
+                "steps": 6999970,
+                "file_path": "results\\softAorta12\\Planner\\Planner-6999970.onnx",
+                "reward": -1.1009250155184418,
+                "creation_time": 1663571932.8752065,
+                "auxillary_file_paths": [
+                    "results\\softAorta12\\Planner\\Planner-6999970.pt"
+                ]
+            },
+            {
+                "steps": 7499937,
+                "file_path": "results\\softAorta12\\Planner\\Planner-7499937.onnx",
+                "reward": 0.8761899820528924,
+                "creation_time": 1663601261.1868284,
+                "auxillary_file_paths": [
+                    "results\\softAorta12\\Planner\\Planner-7499937.pt"
+                ]
+            },
+            {
+                "steps": 7999990,
+                "file_path": "results\\softAorta12\\Planner\\Planner-7999990.onnx",
+                "reward": -0.45699001018268365,
+                "creation_time": 1663630645.7765217,
+                "auxillary_file_paths": [
+                    "results\\softAorta12\\Planner\\Planner-7999990.pt"
+                ]
+            },
+            {
+                "steps": 8000054,
+                "file_path": "results\\softAorta12\\Planner\\Planner-8000054.onnx",
+                "reward": -0.45699001018268365,
+                "creation_time": 1663630645.839524,
+                "auxillary_file_paths": [
+                    "results\\softAorta12\\Planner\\Planner-8000054.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 8000054,
+            "file_path": "results\\softAorta12\\Planner.onnx",
+            "reward": -0.45699001018268365,
+            "creation_time": 1663630645.839524,
+            "auxillary_file_paths": [
+                "results\\softAorta12\\Planner\\Planner-8000054.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.12.0+cpu"
+    }
+}

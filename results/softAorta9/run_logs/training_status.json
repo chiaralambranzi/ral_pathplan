@@ -1,0 +1,32 @@
+{
+    "pos": {
+        "lesson_num": 0
+    },
+    "Planner": {
+        "checkpoints": [
+            {
+                "steps": 3202,
+                "file_path": "results\\softAorta9\\Planner\\Planner-3202.onnx",
+                "reward": -0.9737687481415378,
+                "creation_time": 1662801542.2572584,
+                "auxillary_file_paths": [
+                    "results\\softAorta9\\Planner\\Planner-3202.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 3202,
+            "file_path": "results\\softAorta9\\Planner.onnx",
+            "reward": -0.9737687481415378,
+            "creation_time": 1662801542.2572584,
+            "auxillary_file_paths": [
+                "results\\softAorta9\\Planner\\Planner-3202.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.12.0+cpu"
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "pos": {
+        "lesson_num": 0
+    },
+    "Planner": {
+        "checkpoints": [
+            {
+                "steps": 499936,
+                "file_path": "results\\HighStart11_curr_pos_3\\Planner\\Planner-499936.onnx",
+                "reward": 0.9436999938916415,
+                "creation_time": 1662733076.356107,
+                "auxillary_file_paths": [
+                    "results\\HighStart11_curr_pos_3\\Planner\\Planner-499936.pt"
+                ]
+            },
+            {
+                "steps": 999981,
+                "file_path": "results\\HighStart11_curr_pos_3\\Planner\\Planner-999981.onnx",
+                "reward": -1.0282199615612626,
+                "creation_time": 1662741303.6080387,
+                "auxillary_file_paths": [
+                    "results\\HighStart11_curr_pos_3\\Planner\\Planner-999981.pt"
+                ]
+            },
+            {
+                "steps": 1499969,
+                "file_path": "results\\HighStart11_curr_pos_3\\Planner\\Planner-1499969.onnx",
+                "reward": -1.0695000374689698,
+                "creation_time": 1662749070.664578,
+                "auxillary_file_paths": [
+                    "results\\HighStart11_curr_pos_3\\Planner\\Planner-1499969.pt"
+                ]
+            },
+            {
+                "steps": 1999957,
+                "file_path": "results\\HighStart11_curr_pos_3\\Planner\\Planner-1999957.onnx",
+                "reward": -0.041124942363239825,
+                "creation_time": 1662757027.7653522,
+                "auxillary_file_paths": [
+                    "results\\HighStart11_curr_pos_3\\Planner\\Planner-1999957.pt"
+                ]
+            },
+            {
+                "steps": 2000021,
+                "file_path": "results\\HighStart11_curr_pos_3\\Planner\\Planner-2000021.onnx",
+                "reward": -0.041124942363239825,
+                "creation_time": 1662757028.035628,
+                "auxillary_file_paths": [
+                    "results\\HighStart11_curr_pos_3\\Planner\\Planner-2000021.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2000021,
+            "file_path": "results\\HighStart11_curr_pos_3\\Planner.onnx",
+            "reward": -0.041124942363239825,
+            "creation_time": 1662757028.035628,
+            "auxillary_file_paths": [
+                "results\\HighStart11_curr_pos_3\\Planner\\Planner-2000021.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.12.0+cpu"
+    }
+}

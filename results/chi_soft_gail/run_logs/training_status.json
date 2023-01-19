@@ -1,0 +1,65 @@
+{
+    "Planner": {
+        "checkpoints": [
+            {
+                "steps": 999958,
+                "file_path": "results\\chi_soft_gail\\Planner\\Planner-999958.onnx",
+                "reward": -0.9847249727493667,
+                "creation_time": 1666261195.1286857,
+                "auxillary_file_paths": [
+                    "results\\chi_soft_gail\\Planner\\Planner-999958.pt"
+                ]
+            },
+            {
+                "steps": 1499988,
+                "file_path": "results\\chi_soft_gail\\Planner\\Planner-1499988.onnx",
+                "reward": null,
+                "creation_time": 1666287801.1697743,
+                "auxillary_file_paths": [
+                    "results\\chi_soft_gail\\Planner\\Planner-1499988.pt"
+                ]
+            },
+            {
+                "steps": 1999968,
+                "file_path": "results\\chi_soft_gail\\Planner\\Planner-1999968.onnx",
+                "reward": -0.9986214114573418,
+                "creation_time": 1666314403.3627098,
+                "auxillary_file_paths": [
+                    "results\\chi_soft_gail\\Planner\\Planner-1999968.pt"
+                ]
+            },
+            {
+                "steps": 2499951,
+                "file_path": "results\\chi_soft_gail\\Planner\\Planner-2499951.onnx",
+                "reward": -1.0131249889018363,
+                "creation_time": 1666340999.625835,
+                "auxillary_file_paths": [
+                    "results\\chi_soft_gail\\Planner\\Planner-2499951.pt"
+                ]
+            },
+            {
+                "steps": 2613519,
+                "file_path": "results\\chi_soft_gail\\Planner\\Planner-2613519.onnx",
+                "reward": -1.0252250123303384,
+                "creation_time": 1666347042.8862364,
+                "auxillary_file_paths": [
+                    "results\\chi_soft_gail\\Planner\\Planner-2613519.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2613519,
+            "file_path": "results\\chi_soft_gail\\Planner.onnx",
+            "reward": -1.0252250123303384,
+            "creation_time": 1666347042.8862364,
+            "auxillary_file_paths": [
+                "results\\chi_soft_gail\\Planner\\Planner-2613519.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.12.0+cpu"
+    }
+}

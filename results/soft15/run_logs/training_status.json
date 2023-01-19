@@ -1,0 +1,68 @@
+{
+    "pos": {
+        "lesson_num": 1
+    },
+    "Planner": {
+        "checkpoints": [
+            {
+                "steps": 6499968,
+                "file_path": "results\\soft15\\Planner\\Planner-6499968.onnx",
+                "reward": -1.077249998304372,
+                "creation_time": 1665422255.5813298,
+                "auxillary_file_paths": [
+                    "results\\soft15\\Planner\\Planner-6499968.pt"
+                ]
+            },
+            {
+                "steps": 6999996,
+                "file_path": "results\\soft15\\Planner\\Planner-6999996.onnx",
+                "reward": -1.0809749948093668,
+                "creation_time": 1665449647.9501505,
+                "auxillary_file_paths": [
+                    "results\\soft15\\Planner\\Planner-6999996.pt"
+                ]
+            },
+            {
+                "steps": 7499956,
+                "file_path": "results\\soft15\\Planner\\Planner-7499956.onnx",
+                "reward": -1.0943499749992043,
+                "creation_time": 1665477021.2801414,
+                "auxillary_file_paths": [
+                    "results\\soft15\\Planner\\Planner-7499956.pt"
+                ]
+            },
+            {
+                "steps": 7999987,
+                "file_path": "results\\soft15\\Planner\\Planner-7999987.onnx",
+                "reward": -0.6149849935318343,
+                "creation_time": 1665504390.2637858,
+                "auxillary_file_paths": [
+                    "results\\soft15\\Planner\\Planner-7999987.pt"
+                ]
+            },
+            {
+                "steps": 8000051,
+                "file_path": "results\\soft15\\Planner\\Planner-8000051.onnx",
+                "reward": -0.6149849935318343,
+                "creation_time": 1665504390.325783,
+                "auxillary_file_paths": [
+                    "results\\soft15\\Planner\\Planner-8000051.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 8000051,
+            "file_path": "results\\soft15\\Planner.onnx",
+            "reward": -0.6149849935318343,
+            "creation_time": 1665504390.325783,
+            "auxillary_file_paths": [
+                "results\\soft15\\Planner\\Planner-8000051.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.12.0+cpu"
+    }
+}

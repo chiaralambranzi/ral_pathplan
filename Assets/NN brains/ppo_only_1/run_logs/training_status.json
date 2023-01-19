@@ -1,0 +1,65 @@
+{
+    "RigidPlanner": {
+        "checkpoints": [
+            {
+                "steps": 6499947,
+                "file_path": "results\\ppo_only_1\\RigidPlanner\\RigidPlanner-6499947.onnx",
+                "reward": -0.9921900574772735,
+                "creation_time": 1667264344.9307985,
+                "auxillary_file_paths": [
+                    "results\\ppo_only_1\\RigidPlanner\\RigidPlanner-6499947.pt"
+                ]
+            },
+            {
+                "steps": 6999937,
+                "file_path": "results\\ppo_only_1\\RigidPlanner\\RigidPlanner-6999937.onnx",
+                "reward": -1.0091300018502807,
+                "creation_time": 1667266955.6216204,
+                "auxillary_file_paths": [
+                    "results\\ppo_only_1\\RigidPlanner\\RigidPlanner-6999937.pt"
+                ]
+            },
+            {
+                "steps": 7499977,
+                "file_path": "results\\ppo_only_1\\RigidPlanner\\RigidPlanner-7499977.onnx",
+                "reward": null,
+                "creation_time": 1667269568.5614269,
+                "auxillary_file_paths": [
+                    "results\\ppo_only_1\\RigidPlanner\\RigidPlanner-7499977.pt"
+                ]
+            },
+            {
+                "steps": 7999980,
+                "file_path": "results\\ppo_only_1\\RigidPlanner\\RigidPlanner-7999980.onnx",
+                "reward": -1.003606658722371,
+                "creation_time": 1667272180.2757554,
+                "auxillary_file_paths": [
+                    "results\\ppo_only_1\\RigidPlanner\\RigidPlanner-7999980.pt"
+                ]
+            },
+            {
+                "steps": 8000044,
+                "file_path": "results\\ppo_only_1\\RigidPlanner\\RigidPlanner-8000044.onnx",
+                "reward": -1.003606658722371,
+                "creation_time": 1667272180.3397467,
+                "auxillary_file_paths": [
+                    "results\\ppo_only_1\\RigidPlanner\\RigidPlanner-8000044.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 8000044,
+            "file_path": "results\\ppo_only_1\\RigidPlanner.onnx",
+            "reward": -1.003606658722371,
+            "creation_time": 1667272180.3397467,
+            "auxillary_file_paths": [
+                "results\\ppo_only_1\\RigidPlanner\\RigidPlanner-8000044.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.12.0+cpu"
+    }
+}

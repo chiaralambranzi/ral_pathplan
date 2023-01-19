@@ -1,0 +1,68 @@
+{
+    "time": {
+        "lesson_num": 0
+    },
+    "Planner": {
+        "checkpoints": [
+            {
+                "steps": 999944,
+                "file_path": "results\\curr_time_21_07_2\\Planner\\Planner-999944.onnx",
+                "reward": 0.11500008264556527,
+                "creation_time": 1658425052.2509577,
+                "auxillary_file_paths": [
+                    "results\\curr_time_21_07_2\\Planner\\Planner-999944.pt"
+                ]
+            },
+            {
+                "steps": 1499958,
+                "file_path": "results\\curr_time_21_07_2\\Planner\\Planner-1499958.onnx",
+                "reward": -0.11294994371322294,
+                "creation_time": 1658428375.4785876,
+                "auxillary_file_paths": [
+                    "results\\curr_time_21_07_2\\Planner\\Planner-1499958.pt"
+                ]
+            },
+            {
+                "steps": 1999978,
+                "file_path": "results\\curr_time_21_07_2\\Planner\\Planner-1999978.onnx",
+                "reward": 0.13656672563714287,
+                "creation_time": 1658431775.7132897,
+                "auxillary_file_paths": [
+                    "results\\curr_time_21_07_2\\Planner\\Planner-1999978.pt"
+                ]
+            },
+            {
+                "steps": 2499981,
+                "file_path": "results\\curr_time_21_07_2\\Planner\\Planner-2499981.onnx",
+                "reward": 0.18620006763376296,
+                "creation_time": 1658435251.5737827,
+                "auxillary_file_paths": [
+                    "results\\curr_time_21_07_2\\Planner\\Planner-2499981.pt"
+                ]
+            },
+            {
+                "steps": 2941421,
+                "file_path": "results\\curr_time_21_07_2\\Planner\\Planner-2941421.onnx",
+                "reward": 0.06910005956888199,
+                "creation_time": 1658438499.5146048,
+                "auxillary_file_paths": [
+                    "results\\curr_time_21_07_2\\Planner\\Planner-2941421.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2941421,
+            "file_path": "results\\curr_time_21_07_2\\Planner.onnx",
+            "reward": 0.06910005956888199,
+            "creation_time": 1658438499.5146048,
+            "auxillary_file_paths": [
+                "results\\curr_time_21_07_2\\Planner\\Planner-2941421.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.12.0+cpu"
+    }
+}

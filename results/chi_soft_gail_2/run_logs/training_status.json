@@ -1,0 +1,47 @@
+{
+    "Planner": {
+        "checkpoints": [
+            {
+                "steps": 499994,
+                "file_path": "results\\chi_soft_gail_2\\Planner\\Planner-499994.onnx",
+                "reward": -0.9907407413098823,
+                "creation_time": 1666572211.5916088,
+                "auxillary_file_paths": [
+                    "results\\chi_soft_gail_2\\Planner\\Planner-499994.pt"
+                ]
+            },
+            {
+                "steps": 999949,
+                "file_path": "results\\chi_soft_gail_2\\Planner\\Planner-999949.onnx",
+                "reward": -0.9955555552409755,
+                "creation_time": 1666598878.9123247,
+                "auxillary_file_paths": [
+                    "results\\chi_soft_gail_2\\Planner\\Planner-999949.pt"
+                ]
+            },
+            {
+                "steps": 1399208,
+                "file_path": "results\\chi_soft_gail_2\\Planner\\Planner-1399208.onnx",
+                "reward": -0.9919999996200204,
+                "creation_time": 1666620178.0089734,
+                "auxillary_file_paths": [
+                    "results\\chi_soft_gail_2\\Planner\\Planner-1399208.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1399208,
+            "file_path": "results\\chi_soft_gail_2\\Planner.onnx",
+            "reward": -0.9919999996200204,
+            "creation_time": 1666620178.0089734,
+            "auxillary_file_paths": [
+                "results\\chi_soft_gail_2\\Planner\\Planner-1399208.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.12.0+cpu"
+    }
+}

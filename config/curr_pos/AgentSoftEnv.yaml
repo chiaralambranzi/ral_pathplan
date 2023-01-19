@@ -1,0 +1,77 @@
+behaviors:
+  Planner:
+    trainer_type: ppo
+    max_steps: 8000000
+    time_horizon: 64
+    summary_freq: 50000
+    hyperparameters:
+      batch_size: 1024
+      buffer_size: 10240
+      learning_rate: 5.0e-4
+      beta: 5.0e-4
+      epsilon: 0.25
+      lambd: 0.95
+      num_epoch: 3
+    network_settings:
+      hidden_units: 128
+      memory_size: 256
+      normalize: false
+      num_layers: 5
+    reward_signals:
+      extrinsic:
+        gamma: 0.99
+        strength: 0.1
+      gail:
+        strength: 0.9
+        gamma: 0.99
+        encoding_size: 128
+        demo_path: Assets\Demonstrations\softAorta
+    behavioral_cloning:
+      demo_path: Assets\Demonstrations\softAorta
+      strength: 0.5
+      steps: 8000000
+      curiosity:
+        strength: 0.01
+environment_parameters:
+  pos:
+    curriculum:
+      - name: Lesson0
+        completion_criteria:
+          measure: reward
+          signal_smoothing: true
+          min_lesson_length: 20
+          behavior: Planner
+          threshold: 0.5
+        value: 250
+      - name: Lesson1
+        completion_criteria:
+          measure: reward
+          signal_smoothing: true
+          min_lesson_length: 20
+          behavior: Planner
+          threshold: 0.5
+        value: 240
+      - name: Lesson2
+        completion_criteria:
+          measure: reward
+          signal_smoothing: true
+          min_lesson_length: 20
+          behavior: Planner
+          threshold: 0.5
+        value: 240
+      - name: Lesson3
+        completion_criteria:
+          measure: reward
+          signal_smoothing: true
+          min_lesson_length: 20
+          behavior: Planner
+          threshold: 0.5
+        value: 200
+      - name: Lesson4
+        completion_criteria:
+          measure: reward
+          signal_smoothing: true
+          min_lesson_length: 20
+          behavior: Planner
+          threshold: 0.5
+        value: 180

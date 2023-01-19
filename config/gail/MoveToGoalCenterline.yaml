@@ -1,0 +1,41 @@
+behaviors:
+  Planner:
+    trainer_type: ppo
+    hyperparameters:
+      batch_size: 1024
+      buffer_size: 10240
+      learning_rate: 0.0005
+      beta: 0.0005
+      epsilon: 0.25
+      lambd: 0.95
+      num_epoch: 3
+      learning_rate_schedule: linear
+    network_settings:
+      normalize: false
+      hidden_units: 128
+      num_layers: 5
+      memory: null
+      goal_conditioning_type: hyper
+    behavioral_cloning:
+       demo_path: Assets\Demonstrations\smallCathCorrect
+       strength: 0.9
+       steps: 3000000
+    reward_signals:
+      extrinsic:
+        gamma: 0.99
+        strength: 0.7
+      gail:
+        strength: 0.3
+        gamma: 0.99
+        encoding_size: 128
+        demo_path: Assets\Demonstrations\smallCathCorrect
+      curiosity:
+        strength: 0.02
+    init_path: null
+    keep_checkpoints: 5
+    checkpoint_interval: 3000000
+    max_steps: 3000000
+    time_horizon: 64
+    summary_freq: 50000
+    threaded: false
+    self_play: null

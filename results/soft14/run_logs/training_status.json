@@ -1,0 +1,59 @@
+{
+    "pos": {
+        "lesson_num": 0
+    },
+    "Planner": {
+        "checkpoints": [
+            {
+                "steps": 499944,
+                "file_path": "results\\soft14\\Planner\\Planner-499944.onnx",
+                "reward": -1.0325250268215314,
+                "creation_time": 1665009772.1279144,
+                "auxillary_file_paths": [
+                    "results\\soft14\\Planner\\Planner-499944.pt"
+                ]
+            },
+            {
+                "steps": 999993,
+                "file_path": "results\\soft14\\Planner\\Planner-999993.onnx",
+                "reward": -1.023259983677417,
+                "creation_time": 1665037297.0414264,
+                "auxillary_file_paths": [
+                    "results\\soft14\\Planner\\Planner-999993.pt"
+                ]
+            },
+            {
+                "steps": 1499938,
+                "file_path": "results\\soft14\\Planner\\Planner-1499938.onnx",
+                "reward": null,
+                "creation_time": 1665064879.0094805,
+                "auxillary_file_paths": [
+                    "results\\soft14\\Planner\\Planner-1499938.pt"
+                ]
+            },
+            {
+                "steps": 1504302,
+                "file_path": "results\\soft14\\Planner\\Planner-1504302.onnx",
+                "reward": -1.0385500011616386,
+                "creation_time": 1665065113.3587842,
+                "auxillary_file_paths": [
+                    "results\\soft14\\Planner\\Planner-1504302.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1504302,
+            "file_path": "results\\soft14\\Planner.onnx",
+            "reward": -1.0385500011616386,
+            "creation_time": 1665065113.3587842,
+            "auxillary_file_paths": [
+                "results\\soft14\\Planner\\Planner-1504302.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.12.0+cpu"
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "time": {
+        "lesson_num": 4
+    },
+    "Planner": {
+        "checkpoints": [
+            {
+                "steps": 46094,
+                "file_path": "results\\curr_time_21_07_4\\Planner\\Planner-46094.onnx",
+                "reward": 8.941374586895108,
+                "creation_time": 1658482858.8873594,
+                "auxillary_file_paths": [
+                    "results\\curr_time_21_07_4\\Planner\\Planner-46094.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 46094,
+            "file_path": "results\\curr_time_21_07_4\\Planner.onnx",
+            "reward": 8.941374586895108,
+            "creation_time": 1658482858.8873594,
+            "auxillary_file_paths": [
+                "results\\curr_time_21_07_4\\Planner\\Planner-46094.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.12.0+cpu"
+    }
+}

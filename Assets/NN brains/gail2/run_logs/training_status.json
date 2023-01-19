@@ -1,0 +1,29 @@
+{
+    "Planner": {
+        "checkpoints": [
+            {
+                "steps": 200037,
+                "file_path": "results\\gail2\\Planner\\Planner-200037.onnx",
+                "reward": -0.9506286025446441,
+                "creation_time": 1657334013.2254584,
+                "auxillary_file_paths": [
+                    "results\\gail2\\Planner\\Planner-200037.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 200037,
+            "file_path": "results\\gail2\\Planner.onnx",
+            "reward": -0.9506286025446441,
+            "creation_time": 1657334013.2254584,
+            "auxillary_file_paths": [
+                "results\\gail2\\Planner\\Planner-200037.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.12.0+cpu"
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "pos": {
+        "lesson_num": 0
+    },
+    "Planner": {
+        "checkpoints": [
+            {
+                "steps": 499971,
+                "file_path": "results\\softAorta8\\Planner\\Planner-499971.onnx",
+                "reward": -1.1393499710441877,
+                "creation_time": 1662765652.330177,
+                "auxillary_file_paths": [
+                    "results\\softAorta8\\Planner\\Planner-499971.pt"
+                ]
+            },
+            {
+                "steps": 999985,
+                "file_path": "results\\softAorta8\\Planner\\Planner-999985.onnx",
+                "reward": -1.0282299753278494,
+                "creation_time": 1662793866.174586,
+                "auxillary_file_paths": [
+                    "results\\softAorta8\\Planner\\Planner-999985.pt"
+                ]
+            },
+            {
+                "steps": 1129003,
+                "file_path": "results\\softAorta8\\Planner\\Planner-1129003.onnx",
+                "reward": -1.0275818253232336,
+                "creation_time": 1662801172.9261136,
+                "auxillary_file_paths": [
+                    "results\\softAorta8\\Planner\\Planner-1129003.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1129003,
+            "file_path": "results\\softAorta8\\Planner.onnx",
+            "reward": -1.0275818253232336,
+            "creation_time": 1662801172.9261136,
+            "auxillary_file_paths": [
+                "results\\softAorta8\\Planner\\Planner-1129003.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.12.0+cpu"
+    }
+}
